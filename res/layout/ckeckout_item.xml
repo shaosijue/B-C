@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/image_checkout_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/text_checkou_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="35dp"
+        android:textSize="20sp"
+        android:text="名字" />
+
+    <Button 
+        android:id="@+id/reduce"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="55dp"
+       	android:textSize="15sp"
+        android:text="-"/>
+    <TextView
+        android:id="@+id/text_checkout_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="250dp"
+        android:textSize="20sp"
+       	android:gravity="center"
+        android:text="数量" />
+	<Button 
+        android:id="@+id/plus"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="55dp"
+       	android:textSize="15sp"
+        android:text="+"/>
+
+	<TextView
+	    android:id="@+id/text_aprice"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/reduce"
+	    android:layout_below="@+id/reduce"
+	    android:layout_marginTop="10dp"
+	    android:text="单价：" />
+
+	<TextView
+	    android:id="@+id/text_prices"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/text_aprice"
+	    android:layout_alignBottom="@+id/text_aprice"
+	    android:layout_alignRight="@+id/plus"
+	    android:text="总计：" />
+
+</RelativeLayout>

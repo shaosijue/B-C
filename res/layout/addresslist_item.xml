@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/text_name_item_addresslit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="35dp"
+        android:textSize="25sp"
+        android:text="TextView" />
+    
+    <TextView
+        android:id="@+id/text_tel_item_addresslit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="35dp"
+        android:textSize="25sp"
+        android:text="TextView" />
+      <TextView
+        android:id="@+id/text_address_item_addresslit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="80dp"
+        android:textSize="25sp"
+        android:text="TextView" />
+    
+
+</RelativeLayout>
